@@ -246,7 +246,7 @@ if page == "Overview":
     st.title("Busy Buffet")
     st.markdown("## Atmind Data Analytics Test 2026")
     st.markdown("""<div class="comment-quote">
-        Presented by : Yanisa Mahoppon
+        Presented by : Yanisa Mahuppon
     </div>""", unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
