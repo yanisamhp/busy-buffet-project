@@ -4,6 +4,7 @@ import numpy as np
 from datetime import timedelta
 import plotly.graph_objects as go
 import plotly.express as px
+from pathlib import Path
 
 # ─── Page config ───────────────────────────────────────────
 st.set_page_config(
@@ -181,6 +182,7 @@ def apply_font(fig, height=320):
 # ─── Load & prep data ──────────────────────────────────────
 @st.cache_data
 def load_data():
+
     BASE_DIR = Path(__file__).resolve().parent.parent
     DATA_PATH = BASE_DIR / "data" / "busy_buffet_clean.pkl"
 
