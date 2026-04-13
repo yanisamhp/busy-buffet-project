@@ -266,6 +266,8 @@ if page == "Overview":
     kpi(c3, "Walk-away",     f"{walkaway}",        "groups ที่รอแล้วออก", C_RED)
     kpi(c4, "Avg Wait Time", f"{avg_wait:.0f} min","เฉพาะกลุ่มที่รอคิว",  C_GRAY)
 
+    st.caption("หมายเหตุ : Total Groups และ Total Pax รวมลูกค้ากลุ่ม Walk-away (14 กลุ่ม) ที่เข้ามาติดต่อแต่ไม่ได้ใช้บริการจริง")
+
     st.markdown("<br>", unsafe_allow_html=True)
     col_l, col_r = st.columns(2)
 
@@ -285,6 +287,8 @@ if page == "Overview":
         ))
         fig.update_layout(yaxis_title="Pax", yaxis_range=[0, 200], template=TEMPLATE)
         st.plotly_chart(apply_font(fig), use_container_width=True)
+
+        st.caption("หมายเหตุ: นับเฉพาะลูกค้าที่มาใช้บริการจริง")
 
     with col_r:
         st.markdown("#### Guest Mix")
