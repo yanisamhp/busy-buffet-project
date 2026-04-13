@@ -171,6 +171,9 @@ def apply_font(fig, height=320):
         margin=dict(t=36, b=8, l=8, r=8),
         plot_bgcolor="#ffffff",
         paper_bgcolor="#ffffff",
+
+        showlegend=False,
+
         title=dict(
             font=dict(family="Montserrat, sans-serif", size=13, color="#1B365D")
         ),
@@ -666,7 +669,7 @@ elif page == "Task 3 — Recommendation":
         fig = go.Figure(go.Bar(
             x=ih_hour["hour_str"], y=ih_hour["count"],
             marker_color=[
-                C_INHOUSE if h in [7, 8] else C_WALKIN
+                C_INHOUSE if h in [7, 8, 9] else C_WALKIN
                 for h in ih_hour["meal_hour"]
             ],
             text=ih_hour["count"], textposition="outside",
