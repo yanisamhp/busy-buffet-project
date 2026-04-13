@@ -167,9 +167,12 @@ def apply_font(fig, height=320):
     fig.update_layout(
         font=FONT,
         height=height,
-        margin=dict(t=16, b=8, l=8, r=8),
+        margin=dict(t=36, b=8, l=8, r=8),
         plot_bgcolor="#ffffff",
         paper_bgcolor="#ffffff",
+        title=dict(
+            font=dict(family="Montserrat, sans-serif", size=13, color="#1B365D")
+        ),
     )
     fig.update_xaxes(tickfont=FONT, title_font=FONT, showgrid=False, linecolor="#E7E6E6")
     fig.update_yaxes(tickfont=FONT, title_font=FONT, gridcolor="#f0f0f0", linecolor="#E7E6E6")
@@ -178,9 +181,7 @@ def apply_font(fig, height=320):
 # ─── Load & prep data ──────────────────────────────────────
 @st.cache_data
 def load_data():
-    import os
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    df = pd.read_pickle(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "busy_buffet_clean.pkl"))
+    df = pd.read_pickle("../data/busy_buffet_clean.pkl")
 
     slots  = [timedelta(hours=h, minutes=m) for h in range(6, 14) for m in (0, 30)]
     seated = df[df["seating_status"] != "Walk-away"]
@@ -212,7 +213,7 @@ with st.sidebar:
     st.markdown("""
     <div style='padding: 0 8px 20px;'>
         <div style='font-size:1.1rem; font-weight:700; letter-spacing:0.01em;'>Busy Buffet</div>
-        <div style='font-size:0.78rem; color:#8497B0; margin-top:2px;'>Hotel Amber Sukhumvit 85</div>
+        <div style='font-size:0.78rem; color:#8497B0; margin-top:2px;'>Hotel Amber 85</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -244,9 +245,8 @@ def kpi(col, label, value, sub="", accent=C_INHOUSE):
 # ══════════════════════════════════════════════════════════
 if page == "Overview":
     st.title("Busy Buffet")
-    st.markdown("## Atmind Data Analytics Test 2026")
     st.markdown("""<div class="comment-quote">
-        Presented by : Yanisa Mahuppon
+        Presented by : Yanisa Mahoppon
     </div>""", unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -653,8 +653,10 @@ elif page == "Task 3 — Recommendation":
         ih_seated["meal_hour"] = ih_seated["meal_start"].apply(
             lambda x: x.seconds // 3600 if pd.notna(x) else None
         )
+        # กรองเฉพาะช่วงเวลาที่ make sense (06:00–13:00)
         ih_hour = (
-            ih_seated.groupby("meal_hour").size()
+            ih_seated[ih_seated["meal_hour"].between(6, 13)]
+            .groupby("meal_hour").size()
             .reset_index(name="count")
         )
         ih_hour["hour_str"] = ih_hour["meal_hour"].apply(lambda h: f"{h:02d}:00")
@@ -703,7 +705,7 @@ elif page == "Task 3 — Recommendation":
             yaxis_range=[0, 50], template=TEMPLATE,
         )
         st.plotly_chart(apply_font(fig), use_container_width=True)
-        st.caption("ต้อง reserve เฉลี่ย ~28 โต๊ะต่อวัน ช่วง 07:00–09:00")
+        st.caption("ต้อง reserve เฉลี่ย ~33 โต๊ะต่อวัน ช่วง 07:00–09:00")
 
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown("#### Queue Skipping vs Reserved Seating")
