@@ -167,79 +167,47 @@ def apply_font(fig, height=320):
     fig.update_layout(
         font=FONT,
         height=height,
-        margin=dict(t=16, b=8, l=8, r=8),
+        margin=dict(t=36, b=8, l=8, r=8),
         plot_bgcolor="#ffffff",
         paper_bgcolor="#ffffff",
+        title=dict(
+            font=dict(family="Montserrat, sans-serif", size=13, color="#1B365D")
+        ),
     )
     fig.update_xaxes(tickfont=FONT, title_font=FONT, showgrid=False, linecolor="#E7E6E6")
     fig.update_yaxes(tickfont=FONT, title_font=FONT, gridcolor="#f0f0f0", linecolor="#E7E6E6")
     return fig
 
 # ─── Load & prep data ──────────────────────────────────────
-from pathlib import Path
-import pandas as pd
-from datetime import timedelta
-import streamlit as st
-
 @st.cache_data
 def load_data():
-
-    # Path to data
     BASE_DIR = Path(__file__).resolve().parent.parent
     DATA_PATH = BASE_DIR / "data" / "busy_buffet_clean.pkl"
 
     df = pd.read_pickle(DATA_PATH)
 
-    # Create 30-min slots from 06:00–13:30
-    slots = [
-        timedelta(hours=h, minutes=m)
-        for h in range(6, 14)
-        for m in (0, 30)
-    ]
-
+    slots  = [timedelta(hours=h, minutes=m) for h in range(6, 14) for m in (0, 30)]
     seated = df[df["seating_status"] != "Walk-away"]
-
     occ_rows = []
-
     for _, row in seated.iterrows():
-
         if pd.isna(row["meal_start"]) or pd.isna(row["meal_end"]):
             continue
-
         pax_val = row["pax"] if row["pax"] > 0 else 1
-
         for slot in slots:
-
             if row["meal_start"] <= slot < row["meal_end"]:
-
-                total_sec = int(slot.total_seconds())
-
-                h = total_sec // 3600
-                m = (total_sec % 3600) // 60
-
+                h = slot.seconds // 3600
+                m = (slot.seconds % 3600) // 60
                 occ_rows.append({
-                    "date": row["date"],
+                    "date"    : row["date"],
                     "slot_str": f"{h:02d}:{m:02d}",
-                    "pax": pax_val,
+                    "pax"     : pax_val,
                 })
-
-    occ_df = pd.DataFrame(occ_rows)
-
-    n_days = df["date"].nunique()
-
-    occ_avg = (
-        occ_df
-        .groupby("slot_str")["pax"]
-        .sum()
-        .div(n_days)
-        .round(1)
-        .reset_index()
-    )
-
+    occ_df  = pd.DataFrame(occ_rows)
+    n_days  = df["date"].nunique()
+    occ_avg = occ_df.groupby("slot_str")["pax"].sum().div(n_days).round(1).reset_index()
     occ_avg.columns = ["slot", "avg_pax"]
 
     return df, occ_avg, n_days
-
 
 df, occ_avg, n_days = load_data()
 
@@ -248,7 +216,7 @@ with st.sidebar:
     st.markdown("""
     <div style='padding: 0 8px 20px;'>
         <div style='font-size:1.1rem; font-weight:700; letter-spacing:0.01em;'>Busy Buffet</div>
-        <div style='font-size:0.78rem; color:#8497B0; margin-top:2px;'>Hotel Amber Sukhumvit 85</div>
+        <div style='font-size:0.78rem; color:#8497B0; margin-top:2px;'>Hotel Amber 85</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -280,9 +248,8 @@ def kpi(col, label, value, sub="", accent=C_INHOUSE):
 # ══════════════════════════════════════════════════════════
 if page == "Overview":
     st.title("Busy Buffet")
-    st.markdown("## Atmind Data Analytics Test 2026")
     st.markdown("""<div class="comment-quote">
-        Presented by : Yanisa Mahuppon
+        Presented by : Yanisa Mahoppon
     </div>""", unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -683,7 +650,6 @@ elif page == "Task 3 — Recommendation":
 
     with col_l:
         st.markdown("#### In-house: เวลาที่นิยมมากิน")
-    
         ih_seated = df[
             (df["Guest_type"] == "In house") &
             df["meal_start"].notna()
@@ -691,18 +657,17 @@ elif page == "Task 3 — Recommendation":
 
         OPEN_HOUR = 6
 
-        # Convert to real hour
+        # แปลงเป็นชั่วโมงจริง
         ih_seated["meal_hour"] = (
             ih_seated["meal_start"]
             .dt.total_seconds() // 3600
         ).astype(int) + OPEN_HOUR
 
-        # กำหนดช่วงเวลา breakfast
+        # กรองเฉพาะช่วง breakfast
         ih_seated = ih_seated[
             ih_seated["meal_hour"].between(6, 12)
         ]
 
-        # Count per hour
         ih_hour = (
             ih_seated
             .groupby("meal_hour")
@@ -711,29 +676,18 @@ elif page == "Task 3 — Recommendation":
             .sort_values("meal_hour")
         )
 
-        # หา peak 2 ชั่วโมง
-        peak_hours = (
-            ih_hour
-            .sort_values("count", ascending=False)
-            .head(2)["meal_hour"]
-            .tolist()
-        )
-
         ih_hour["hour_str"] = ih_hour["meal_hour"].apply(
             lambda h: f"{h:02d}:00"
         )
-
         fig = go.Figure(go.Bar(
-            x=ih_hour["hour_str"],
-            y=ih_hour["count"],
+            x=ih_hour["hour_str"], y=ih_hour["count"],
             marker_color=[
-                C_INHOUSE if h in peak_hours else C_WALKIN
+                C_INHOUSE if h in [7, 8] else C_WALKIN
                 for h in ih_hour["meal_hour"]
             ],
-            text=ih_hour["count"],
-            textposition="outside",
+            text=ih_hour["count"], textposition="outside",
+            textfont=dict(size=11, color=C_INHOUSE),
         ))
-
         fig.update_layout(
             xaxis_title="Time", yaxis_title="Groups (5-day total)",
             yaxis_range=[0, 80], template=TEMPLATE,
@@ -770,7 +724,7 @@ elif page == "Task 3 — Recommendation":
             yaxis_range=[0, 50], template=TEMPLATE,
         )
         st.plotly_chart(apply_font(fig), use_container_width=True)
-        st.caption("ต้อง reserve เฉลี่ย ~28 โต๊ะต่อวัน ช่วง 07:00–09:00")
+        st.caption("ต้อง reserve เฉลี่ย ~33 โต๊ะต่อวัน ช่วง 07:00–09:00")
 
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown("#### Queue Skipping vs Reserved Seating")
