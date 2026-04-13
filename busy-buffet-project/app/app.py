@@ -182,12 +182,10 @@ def apply_font(fig, height=320):
 # ─── Load & prep data ──────────────────────────────────────
 @st.cache_data
 def load_data():
-
     BASE_DIR = Path(__file__).resolve().parent.parent
     DATA_PATH = BASE_DIR / "data" / "busy_buffet_clean.pkl"
 
     df = pd.read_pickle(DATA_PATH)
-
     slots  = [timedelta(hours=h, minutes=m) for h in range(6, 14) for m in (0, 30)]
     seated = df[df["seating_status"] != "Walk-away"]
     occ_rows = []
@@ -653,34 +651,18 @@ elif page == "Task 3 — Recommendation":
     with col_l:
         st.markdown("#### In-house: เวลาที่นิยมมากิน")
         ih_seated = df[
-            (df["Guest_type"] == "In house") &
-            df["meal_start"].notna()
+            (df["Guest_type"] == "In house") & df["meal_start"].notna()
         ].copy()
-
-        OPEN_HOUR = 6
-
-        # แปลงเป็นชั่วโมงจริง
-        ih_seated["meal_hour"] = (
-            ih_seated["meal_start"]
-            .dt.total_seconds() // 3600
-        ).astype(int) + OPEN_HOUR
-
-        # กรองเฉพาะช่วง breakfast
-        ih_seated = ih_seated[
-            ih_seated["meal_hour"].between(6, 12)
-        ]
-
+        ih_seated["meal_hour"] = ih_seated["meal_start"].apply(
+            lambda x: x.seconds // 3600 if pd.notna(x) else None
+        )
+        # กรองเฉพาะช่วงเวลาที่ make sense (06:00–13:00)
         ih_hour = (
-            ih_seated
-            .groupby("meal_hour")
-            .size()
+            ih_seated[ih_seated["meal_hour"].between(6, 13)]
+            .groupby("meal_hour").size()
             .reset_index(name="count")
-            .sort_values("meal_hour")
         )
-
-        ih_hour["hour_str"] = ih_hour["meal_hour"].apply(
-            lambda h: f"{h:02d}:00"
-        )
+        ih_hour["hour_str"] = ih_hour["meal_hour"].apply(lambda h: f"{h:02d}:00")
         fig = go.Figure(go.Bar(
             x=ih_hour["hour_str"], y=ih_hour["count"],
             marker_color=[
