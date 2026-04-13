@@ -708,7 +708,7 @@ elif page == "Task 3 — Recommendation":
             yaxis_range=[0, 50], template=TEMPLATE,
         )
         st.plotly_chart(apply_font(fig), use_container_width=True)
-        st.caption("ต้อง reserve เฉลี่ย ~33 โต๊ะต่อวัน ช่วง 07:00–09:00")
+        st.caption("ต้อง reserve เฉลี่ย ~28 โต๊ะต่อวัน ช่วง 07:00–09:00")
 
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown("#### Queue Skipping vs Reserved Seating")
