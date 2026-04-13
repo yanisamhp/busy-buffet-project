@@ -1,0 +1,364 @@
+service_no.,pax,queue_start,queue_end,table_no.,meal_start,meal_end,Guest_type,sheet_name,date,has_pax_issue,is_queued,is_walkaway,is_direct,wait_time_min,meal_duration_min,day_of_week,is_weekend,table_units,n_tables,is_merged,table_zones,zone,seating_status
+1,1.0,,,6,0 days 06:42:00,0 days 07:00:00,In house,133,2026-03-13,False,False,False,True,,18.0,Friday,False,['6'],1,False,['Unknown'],Unknown,Direct
+2,2.0,,,2,0 days 06:44:00,0 days 07:10:00,Walk in,133,2026-03-13,False,False,False,True,,26.0,Friday,False,['2'],1,False,['Unknown'],Unknown,Direct
+3,2.0,,,7A,0 days 07:05:00,0 days 08:08:00,Walk in,133,2026-03-13,False,False,False,True,,63.0,Friday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+4,1.0,,,8A,0 days 07:20:00,0 days 08:18:00,In house,133,2026-03-13,False,False,False,True,,58.0,Friday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+5,1.0,,,10A,0 days 07:25:00,0 days 07:45:00,In house,133,2026-03-13,False,False,False,True,,20.0,Friday,False,['10A'],1,False,['Outdoor'],Outdoor,Direct
+6,1.0,,,8B,0 days 07:28:00,0 days 08:20:00,In house,133,2026-03-13,False,False,False,True,,52.0,Friday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+7,1.0,,,9,0 days 07:33:00,0 days 08:05:00,In house,133,2026-03-13,False,False,False,True,,32.0,Friday,False,['9'],1,False,['Unknown'],Unknown,Direct
+8,5.0,,,4,0 days 07:42:00,0 days 08:40:00,Walk in,133,2026-03-13,False,False,False,True,,58.0,Friday,False,['4'],1,False,['Unknown'],Unknown,Direct
+9,4.0,,,11,0 days 07:48:00,0 days 08:21:00,In house,133,2026-03-13,False,False,False,True,,33.0,Friday,False,['11'],1,False,['Unknown'],Unknown,Direct
+10,2.0,,,16,0 days 07:48:00,0 days 08:35:00,In house,133,2026-03-13,False,False,False,True,,47.0,Friday,False,['16'],1,False,['Unknown'],Unknown,Direct
+11,2.0,,,6,0 days 07:50:00,0 days 08:48:00,Walk in,133,2026-03-13,False,False,False,True,,58.0,Friday,False,['6'],1,False,['Unknown'],Unknown,Direct
+12,1.0,,,7B,0 days 07:56:00,0 days 08:15:00,In house,133,2026-03-13,False,False,False,True,,19.0,Friday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+13,1.0,,,10A,0 days 07:59:00,0 days 08:35:00,In house,133,2026-03-13,False,False,False,True,,36.0,Friday,False,['10A'],1,False,['Outdoor'],Outdoor,Direct
+14,1.0,,,1,0 days 08:00:00,0 days 09:19:00,Walk in,133,2026-03-13,False,False,False,True,,79.0,Friday,False,['1'],1,False,['Unknown'],Unknown,Direct
+15,1.0,,,8C,0 days 08:03:00,0 days 08:27:00,Walk in,133,2026-03-13,False,False,False,True,,24.0,Friday,False,['8C'],1,False,['Outdoor'],Outdoor,Direct
+16,2.0,,,12,0 days 08:05:00,0 days 08:25:00,In house,133,2026-03-13,False,False,False,True,,20.0,Friday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+17,1.0,,,14,0 days 08:14:00,0 days 09:03:00,In house,133,2026-03-13,False,False,False,True,,49.0,Friday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+18,2.0,,,7A,0 days 08:15:00,0 days 09:30:00,Walk in,133,2026-03-13,False,False,False,True,,75.0,Friday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+19,1.0,,,15A,0 days 08:16:00,0 days 09:05:00,In house,133,2026-03-13,False,False,False,True,,49.0,Friday,False,['15A'],1,False,['Unknown'],Unknown,Direct
+20,1.0,,,10B,0 days 08:19:00,0 days 08:35:00,In house,133,2026-03-13,False,False,False,True,,16.0,Friday,False,['10B'],1,False,['Outdoor'],Outdoor,Direct
+21,4.0,,,3,0 days 08:24:00,0 days 10:46:00,Walk in,133,2026-03-13,False,False,False,True,,142.0,Friday,False,['3'],1,False,['Unknown'],Unknown,Direct
+22,2.0,,,5,0 days 08:25:00,0 days 09:22:00,In house,133,2026-03-13,False,False,False,True,,57.0,Friday,False,['5'],1,False,['Unknown'],Unknown,Direct
+23,2.0,,,2,0 days 08:25:00,0 days 10:12:00,Walk in,133,2026-03-13,False,False,False,True,,107.0,Friday,False,['2'],1,False,['Unknown'],Unknown,Direct
+24,1.0,,,8A,0 days 08:33:00,0 days 09:30:00,Walk in,133,2026-03-13,False,False,False,True,,57.0,Friday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+25,1.0,,,11A,0 days 08:41:00,0 days 09:25:00,Walk in,133,2026-03-13,False,False,False,True,,44.0,Friday,False,['11A'],1,False,['Outdoor'],Outdoor,Direct
+26,1.0,,,16,0 days 08:43:00,0 days 09:35:00,Walk in,133,2026-03-13,False,False,False,True,,52.0,Friday,False,['16'],1,False,['Unknown'],Unknown,Direct
+27,1.0,,,12,0 days 08:47:00,0 days 09:18:00,In house,133,2026-03-13,False,False,False,True,,31.0,Friday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+28,2.0,,,10A,0 days 08:53:00,0 days 09:28:00,In house,133,2026-03-13,False,False,False,True,,35.0,Friday,False,['10A'],1,False,['Outdoor'],Outdoor,Direct
+29,1.0,,,7B,0 days 08:53:00,0 days 09:13:00,In house,133,2026-03-13,False,False,False,True,,20.0,Friday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+30,3.0,,,6,0 days 09:00:00,0 days 09:33:00,In house,133,2026-03-13,False,False,False,True,,33.0,Friday,False,['6'],1,False,['Unknown'],Unknown,Direct
+31,2.0,,,4,0 days 09:05:00,0 days 10:00:00,Walk in,133,2026-03-13,False,False,False,True,,55.0,Friday,False,['4'],1,False,['Unknown'],Unknown,Direct
+32,2.0,,,8B,0 days 09:05:00,0 days 09:39:00,In house,133,2026-03-13,False,False,False,True,,34.0,Friday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+33,2.0,,,15A,0 days 09:07:00,0 days 10:07:00,Walk in,133,2026-03-13,False,False,False,True,,60.0,Friday,False,['15A'],1,False,['Unknown'],Unknown,Direct
+34,2.0,,,8A,0 days 09:08:00,0 days 10:09:00,In house,133,2026-03-13,False,False,False,True,,61.0,Friday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+35,2.0,,,8,0 days 09:16:00,0 days 10:06:00,Walk in,133,2026-03-13,False,False,False,True,,50.0,Friday,False,['8'],1,False,['Unknown'],Unknown,Direct
+36,1.0,,,12,0 days 09:23:00,0 days 09:57:00,In house,133,2026-03-13,False,False,False,True,,34.0,Friday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+37,1.0,,,7C,0 days 08:28:00,0 days 09:30:00,In house,133,2026-03-13,False,False,False,True,,62.0,Friday,False,['7C'],1,False,['Outdoor'],Outdoor,Direct
+38,1.0,,,11A,0 days 09:30:00,0 days 10:05:00,In house,133,2026-03-13,False,False,False,True,,35.0,Friday,False,['11A'],1,False,['Outdoor'],Outdoor,Direct
+39,3.0,,,1,0 days 09:36:00,0 days 10:50:00,In house,133,2026-03-13,False,False,False,True,,74.0,Friday,False,['1'],1,False,['Unknown'],Unknown,Direct
+40,2.0,,,5,0 days 09:34:00,0 days 10:40:00,Walk in,133,2026-03-13,False,False,False,True,,66.0,Friday,False,['5'],1,False,['Unknown'],Unknown,Direct
+41,2.0,,,6,0 days 09:42:00,0 days 10:30:00,In house,133,2026-03-13,False,False,False,True,,48.0,Friday,False,['6'],1,False,['Unknown'],Unknown,Direct
+42,1.0,,,7A,0 days 09:53:00,0 days 11:00:00,Walk in,133,2026-03-13,False,False,False,True,,67.0,Friday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+43,2.0,,,16,0 days 09:55:00,0 days 10:34:00,In house,133,2026-03-13,False,False,False,True,,39.0,Friday,False,['16'],1,False,['Unknown'],Unknown,Direct
+44,2.0,,,7B,0 days 10:03:00,0 days 10:35:00,In house,133,2026-03-13,False,False,False,True,,32.0,Friday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+45,2.0,,,12,0 days 10:05:00,0 days 11:06:00,In house,133,2026-03-13,False,False,False,True,,61.0,Friday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+46,2.0,,,10A,0 days 10:08:00,0 days 10:50:00,In house,133,2026-03-13,False,False,False,True,,42.0,Friday,False,['10A'],1,False,['Outdoor'],Outdoor,Direct
+47,2.0,,,8B,0 days 10:10:00,0 days 11:10:00,Walk in,133,2026-03-13,False,False,False,True,,60.0,Friday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+48,2.0,,,4,0 days 10:20:00,0 days 10:57:00,In house,133,2026-03-13,False,False,False,True,,37.0,Friday,False,['4'],1,False,['Unknown'],Unknown,Direct
+49,2.0,,,2,0 days 10:32:00,0 days 11:00:00,Walk in,133,2026-03-13,False,False,False,True,,28.0,Friday,False,['2'],1,False,['Unknown'],Unknown,Direct
+50,2.0,,,6,0 days 10:35:00,0 days 11:20:00,Walk in,133,2026-03-13,False,False,False,True,,45.0,Friday,False,['6'],1,False,['Unknown'],Unknown,Direct
+51,2.0,,,5,0 days 10:45:00,0 days 11:27:00,In house,133,2026-03-13,False,False,False,True,,42.0,Friday,False,['5'],1,False,['Unknown'],Unknown,Direct
+52,2.0,,,9,0 days 10:53:00,0 days 11:57:00,Walk in,133,2026-03-13,False,False,False,True,,64.0,Friday,False,['9'],1,False,['Unknown'],Unknown,Direct
+53,2.0,,,1,0 days 10:58:00,0 days 11:57:00,Walk in,133,2026-03-13,False,False,False,True,,59.0,Friday,False,['1'],1,False,['Unknown'],Unknown,Direct
+54,2.0,,,4,0 days 11:00:00,0 days 12:03:00,Walk in,133,2026-03-13,False,False,False,True,,63.0,Friday,False,['4'],1,False,['Unknown'],Unknown,Direct
+55,2.0,,,16,0 days 11:00:00,0 days 11:45:00,Walk in,133,2026-03-13,False,False,False,True,,45.0,Friday,False,['16'],1,False,['Unknown'],Unknown,Direct
+56,2.0,,,3,0 days 11:15:00,0 days 11:43:00,In house,133,2026-03-13,False,False,False,True,,28.0,Friday,False,['3'],1,False,['Unknown'],Unknown,Direct
+57,2.0,,,2,0 days 11:16:00,0 days 12:00:00,Walk in,133,2026-03-13,False,False,False,True,,44.0,Friday,False,['2'],1,False,['Unknown'],Unknown,Direct
+1,1.0,,,5B,0 days 06:29:00,0 days 10:14:00,Walk in,143,2026-03-14,False,False,False,True,,225.0,Saturday,True,['5B'],1,False,['Indoor'],Indoor,Direct
+2,2.0,,,7A,0 days 06:32:00,0 days 08:02:00,Walk in,143,2026-03-14,False,False,False,True,,90.0,Saturday,True,['7A'],1,False,['Outdoor'],Outdoor,Direct
+3,1.0,,,1A,0 days 06:33:00,0 days 07:47:00,Walk in,143,2026-03-14,False,False,False,True,,74.0,Saturday,True,['1A'],1,False,['Indoor'],Indoor,Direct
+4,4.0,,,4B,0 days 06:33:00,0 days 08:09:00,Walk in,143,2026-03-14,False,False,False,True,,96.0,Saturday,True,['4B'],1,False,['Indoor'],Indoor,Direct
+5,2.0,,,16,0 days 06:36:00,0 days 07:45:00,Walk in,143,2026-03-14,False,False,False,True,,69.0,Saturday,True,['16'],1,False,['Unknown'],Unknown,Direct
+6,1.0,,,3,0 days 06:44:00,0 days 07:16:00,Walk in,143,2026-03-14,False,False,False,True,,32.0,Saturday,True,['3'],1,False,['Unknown'],Unknown,Direct
+7,1.0,,,6,0 days 06:44:00,0 days 08:27:00,Walk in,143,2026-03-14,False,False,False,True,,103.0,Saturday,True,['6'],1,False,['Unknown'],Unknown,Direct
+8,1.0,,,11,0 days 06:44:00,0 days 07:48:00,Walk in,143,2026-03-14,False,False,False,True,,64.0,Saturday,True,['11'],1,False,['Unknown'],Unknown,Direct
+9,2.0,,,4A,0 days 06:48:00,0 days 07:50:00,Walk in,143,2026-03-14,False,False,False,True,,62.0,Saturday,True,['4A'],1,False,['Indoor'],Indoor,Direct
+10,1.0,0 days 07:07:00,0 days 07:15:00,3B,0 days 07:17:00,0 days 09:26:00,Walk in,143,2026-03-14,False,True,False,False,8.0,129.0,Saturday,True,['3B'],1,False,['Indoor'],Indoor,Queued
+11,1.0,,,11,0 days 07:08:00,0 days 07:50:00,Walk in,143,2026-03-14,False,False,False,True,,42.0,Saturday,True,['11'],1,False,['Unknown'],Unknown,Direct
+12,2.0,,,8B,0 days 07:15:00,0 days 08:27:00,In house,143,2026-03-14,False,False,False,True,,72.0,Saturday,True,['8B'],1,False,['Outdoor'],Outdoor,Direct
+13,2.0,,,8C,0 days 07:25:00,0 days 08:27:00,In house,143,2026-03-14,False,False,False,True,,62.0,Saturday,True,['8C'],1,False,['Outdoor'],Outdoor,Direct
+14,1.0,,,8A,0 days 07:26:00,0 days 08:36:00,Walk in,143,2026-03-14,False,False,False,True,,70.0,Saturday,True,['8A'],1,False,['Outdoor'],Outdoor,Direct
+15,2.0,,,7B,0 days 07:28:00,0 days 08:19:00,In house,143,2026-03-14,False,False,False,True,,51.0,Saturday,True,['7B'],1,False,['Outdoor'],Outdoor,Direct
+16,4.0,,,15,0 days 07:29:00,0 days 08:38:00,Walk in,143,2026-03-14,False,False,False,True,,69.0,Saturday,True,['15'],1,False,['Outdoor'],Outdoor,Direct
+17,2.0,,,9A,0 days 07:35:00,0 days 08:07:00,In house,143,2026-03-14,False,False,False,True,,32.0,Saturday,True,['9A'],1,False,['Outdoor'],Outdoor,Direct
+18,2.0,,,14,0 days 07:38:00,0 days 08:30:00,In house,143,2026-03-14,False,False,False,True,,52.0,Saturday,True,['14'],1,False,['Outdoor'],Outdoor,Direct
+19,2.0,,,12,0 days 07:40:00,0 days 09:31:00,Walk in,143,2026-03-14,False,False,False,True,,111.0,Saturday,True,['12'],1,False,['Outdoor'],Outdoor,Direct
+20,1.0,,,7C,0 days 07:47:00,0 days 08:13:00,Walk in,143,2026-03-14,False,False,False,True,,26.0,Saturday,True,['7C'],1,False,['Outdoor'],Outdoor,Direct
+21,2.0,,,16,0 days 07:49:00,0 days 08:12:00,In house,143,2026-03-14,False,False,False,True,,23.0,Saturday,True,['16'],1,False,['Unknown'],Unknown,Direct
+22,3.0,,,11,0 days 07:51:00,0 days 10:15:00,Walk in,143,2026-03-14,False,False,False,True,,144.0,Saturday,True,['11'],1,False,['Unknown'],Unknown,Direct
+23,1.0,,,1A,0 days 07:55:00,0 days 08:19:00,In house,143,2026-03-14,False,False,False,True,,24.0,Saturday,True,['1A'],1,False,['Indoor'],Indoor,Direct
+24,2.0,,,10B,0 days 07:57:00,0 days 08:25:00,In house,143,2026-03-14,False,False,False,True,,28.0,Saturday,True,['10B'],1,False,['Outdoor'],Outdoor,Direct
+25,2.0,,,9B,0 days 08:02:00,0 days 08:36:00,In house,143,2026-03-14,False,False,False,True,,34.0,Saturday,True,['9B'],1,False,['Outdoor'],Outdoor,Direct
+26,4.0,,,2,0 days 08:05:00,0 days 09:21:00,Walk in,143,2026-03-14,False,False,False,True,,76.0,Saturday,True,['2'],1,False,['Unknown'],Unknown,Direct
+27,2.0,,,4A,0 days 08:06:00,0 days 08:28:00,Walk in,143,2026-03-14,False,False,False,True,,22.0,Saturday,True,['4A'],1,False,['Indoor'],Indoor,Direct
+28,1.0,,,1B,0 days 08:12:00,0 days 08:48:00,In house,143,2026-03-14,False,False,False,True,,36.0,Saturday,True,['1B'],1,False,['Indoor'],Indoor,Direct
+29,4.0,,,4B,0 days 08:13:00,0 days 08:50:00,In house,143,2026-03-14,False,False,False,True,,37.0,Saturday,True,['4B'],1,False,['Indoor'],Indoor,Direct
+30,2.0,,,7A,0 days 08:14:00,0 days 09:46:00,Walk in,143,2026-03-14,False,False,False,True,,92.0,Saturday,True,['7A'],1,False,['Outdoor'],Outdoor,Direct
+31,1.0,,,1A,0 days 08:20:00,0 days 09:41:00,Walk in,143,2026-03-14,False,False,False,True,,81.0,Saturday,True,['1A'],1,False,['Indoor'],Indoor,Direct
+32,2.0,,,16,0 days 08:17:00,0 days 09:30:00,Walk in,143,2026-03-14,False,False,False,True,,73.0,Saturday,True,['16'],1,False,['Unknown'],Unknown,Direct
+33,4.0,,,6,0 days 08:29:00,0 days 09:46:00,Walk in,143,2026-03-14,False,False,False,True,,77.0,Saturday,True,['6'],1,False,['Unknown'],Unknown,Direct
+34,2.0,,,7C,0 days 08:20:00,0 days 10:00:00,Walk in,143,2026-03-14,False,False,False,True,,100.0,Saturday,True,['7C'],1,False,['Outdoor'],Outdoor,Direct
+35,1.0,,,7B,0 days 08:23:00,0 days 08:48:00,In house,143,2026-03-14,False,False,False,True,,25.0,Saturday,True,['7B'],1,False,['Outdoor'],Outdoor,Direct
+36,2.0,,,9A,0 days 08:23:00,0 days 09:12:00,Walk in,143,2026-03-14,False,False,False,True,,49.0,Saturday,True,['9A'],1,False,['Outdoor'],Outdoor,Direct
+37,2.0,0 days 08:25:00,0 days 08:48:00,1B,0 days 08:48:00,0 days 10:05:00,Walk in,143,2026-03-14,False,True,False,False,23.0,77.0,Saturday,True,['1B'],1,False,['Indoor'],Indoor,Queued
+38,2.0,,,8B,0 days 08:29:00,0 days 10:21:00,Walk in,143,2026-03-14,False,False,False,True,,112.0,Saturday,True,['8B'],1,False,['Outdoor'],Outdoor,Direct
+39,1.0,,,10B,0 days 08:34:00,0 days 10:49:00,Walk in,143,2026-03-14,False,False,False,True,,135.0,Saturday,True,['10B'],1,False,['Outdoor'],Outdoor,Direct
+40,5.0,,,13-14,0 days 08:43:00,0 days 09:50:00,In house,143,2026-03-14,False,False,False,True,,67.0,Saturday,True,"['13', '14']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Direct
+41,1.0,,,10A,0 days 08:46:00,0 days 09:24:00,In house,143,2026-03-14,False,False,False,True,,38.0,Saturday,True,['10A'],1,False,['Outdoor'],Outdoor,Direct
+42,2.0,,,9B,0 days 08:50:00,0 days 09:17:00,Walk in,143,2026-03-14,False,False,False,True,,27.0,Saturday,True,['9B'],1,False,['Outdoor'],Outdoor,Direct
+43,4.0,,,15,0 days 08:51:00,0 days 09:41:00,Walk in,143,2026-03-14,False,False,False,True,,50.0,Saturday,True,['15'],1,False,['Outdoor'],Outdoor,Direct
+44,2.0,,,3B,0 days 08:52:00,0 days 09:25:00,In house,143,2026-03-14,False,False,False,True,,33.0,Saturday,True,['3B'],1,False,['Indoor'],Indoor,Direct
+45,1.0,,,8C,0 days 08:54:00,0 days 09:30:00,In house,143,2026-03-14,False,False,False,True,,36.0,Saturday,True,['8C'],1,False,['Outdoor'],Outdoor,Direct
+46,2.0,,,7B,0 days 08:55:00,0 days 09:35:00,In house,143,2026-03-14,False,False,False,True,,40.0,Saturday,True,['7B'],1,False,['Outdoor'],Outdoor,Direct
+47,1.0,0 days 08:56:00,0 days 09:00:00,8A,0 days 09:00:00,0 days 10:09:00,Walk in,143,2026-03-14,False,True,False,False,4.0,69.0,Saturday,True,['8A'],1,False,['Outdoor'],Outdoor,Queued
+48,1.0,0 days 08:56:00,0 days 09:12:00,9A,0 days 09:12:00,0 days 11:00:00,Walk in,143,2026-03-14,False,True,False,False,16.0,108.0,Saturday,True,['9A'],1,False,['Outdoor'],Outdoor,Queued
+49,3.0,0 days 09:08:00,0 days 09:23:00,1B-2A,0 days 09:23:00,0 days 10:08:00,Walk in,143,2026-03-14,False,True,False,False,15.0,45.0,Saturday,True,"['1B', '2A']",2,True,"['Indoor', 'Indoor']",Indoor,Queued
+50,1.0,0 days 09:09:00,0 days 09:24:00,10A,0 days 09:24:00,0 days 09:45:00,Walk in,143,2026-03-14,False,True,False,False,15.0,21.0,Saturday,True,['10A'],1,False,['Outdoor'],Outdoor,Queued
+51,2.0,0 days 09:10:00,0 days 09:20:00,99,0 days 09:20:00,0 days 09:44:00,In house,143,2026-03-14,False,True,False,False,10.0,24.0,Saturday,True,['99'],1,False,['Queue Area'],Queue Area,Queued
+52,2.0,0 days 09:10:00,0 days 09:25:00,3B,0 days 09:25:00,0 days 09:52:00,In house,143,2026-03-14,False,True,False,False,15.0,27.0,Saturday,True,['3B'],1,False,['Indoor'],Indoor,Queued
+53,2.0,0 days 09:11:00,0 days 09:43:00,15,0 days 09:43:00,0 days 10:18:00,In house,143,2026-03-14,False,True,False,False,32.0,35.0,Saturday,True,['15'],1,False,['Outdoor'],Outdoor,Queued
+54,2.0,0 days 09:14:00,0 days 09:30:00,4A,0 days 09:30:00,0 days 09:52:00,In house,143,2026-03-14,False,True,False,False,16.0,22.0,Saturday,True,['4A'],1,False,['Indoor'],Indoor,Queued
+55,1.0,0 days 09:15:00,0 days 09:36:00,9B,0 days 09:36:00,0 days 11:48:00,Walk in,143,2026-03-14,False,True,False,False,21.0,132.0,Saturday,True,['9B'],1,False,['Outdoor'],Outdoor,Queued
+56,2.0,0 days 09:15:00,0 days 09:38:00,13,0 days 09:38:00,0 days 10:21:00,In house,143,2026-03-14,False,True,False,False,23.0,43.0,Saturday,True,['13'],1,False,['Outdoor'],Outdoor,Queued
+57,2.0,0 days 09:21:00,0 days 09:39:00,7B,0 days 09:39:00,0 days 10:27:00,Walk in,143,2026-03-14,False,True,False,False,18.0,48.0,Saturday,True,['7B'],1,False,['Outdoor'],Outdoor,Queued
+58,1.0,0 days 09:21:00,0 days 09:42:00,,,,In house,143,2026-03-14,False,True,True,False,21.0,,Saturday,True,[],0,False,['Unknown'],Unknown,Walk-away
+59,2.0,0 days 09:22:00,0 days 09:42:00,1A,0 days 09:42:00,0 days 11:03:00,Walk in,143,2026-03-14,False,True,False,False,20.0,81.0,Saturday,True,['1A'],1,False,['Indoor'],Indoor,Queued
+60,1.0,0 days 09:31:00,0 days 09:48:00,7A,0 days 09:48:00,0 days 11:21:00,Walk in,143,2026-03-14,False,True,False,False,17.0,93.0,Saturday,True,['7A'],1,False,['Outdoor'],Outdoor,Queued
+61,2.0,0 days 09:32:00,0 days 09:54:00,4A,0 days 09:54:00,0 days 10:56:00,Walk in,143,2026-03-14,False,True,False,False,22.0,62.0,Saturday,True,['4A'],1,False,['Indoor'],Indoor,Queued
+62,2.0,0 days 09:36:00,0 days 09:51:00,4B,0 days 09:51:00,0 days 11:23:00,Walk in,143,2026-03-14,False,True,False,False,15.0,92.0,Saturday,True,['4B'],1,False,['Indoor'],Indoor,Queued
+63,2.0,0 days 09:40:00,0 days 09:52:00,5A,0 days 09:52:00,0 days 10:40:00,Walk in,143,2026-03-14,False,True,False,False,12.0,48.0,Saturday,True,['5A'],1,False,['Indoor'],Indoor,Queued
+64,3.0,,,2B-3A,0 days 09:57:00,0 days 11:28:00,Walk in,143,2026-03-14,False,False,False,True,,91.0,Saturday,True,"['2B', '3A']",2,True,"['Indoor', 'Indoor']",Indoor,Direct
+65,2.0,,,10A,0 days 09:59:00,0 days 10:45:00,Walk in,143,2026-03-14,False,False,False,True,,46.0,Saturday,True,['10A'],1,False,['Outdoor'],Outdoor,Direct
+66,2.0,,,14,0 days 10:00:00,0 days 11:27:00,Walk in,143,2026-03-14,False,False,False,True,,87.0,Saturday,True,['14'],1,False,['Outdoor'],Outdoor,Direct
+67,2.0,,,6,0 days 10:04:00,0 days 11:25:00,Walk in,143,2026-03-14,False,False,False,True,,81.0,Saturday,True,['6'],1,False,['Unknown'],Unknown,Direct
+68,2.0,,,7C,0 days 10:05:00,0 days 11:21:00,Walk in,143,2026-03-14,False,False,False,True,,76.0,Saturday,True,['7C'],1,False,['Outdoor'],Outdoor,Direct
+69,1.0,,,8A,0 days 10:11:00,0 days 10:22:00,Walk in,143,2026-03-14,False,False,False,True,,11.0,Saturday,True,['8A'],1,False,['Outdoor'],Outdoor,Direct
+70,2.0,,,13,0 days 10:12:00,0 days 11:00:00,In house,143,2026-03-14,False,False,False,True,,48.0,Saturday,True,['13'],1,False,['Outdoor'],Outdoor,Direct
+71,2.0,,,11,0 days 10:16:00,0 days 10:38:00,In house,143,2026-03-14,False,False,False,True,,22.0,Saturday,True,['11'],1,False,['Unknown'],Unknown,Direct
+72,1.0,,,5B,0 days 10:14:00,0 days 11:37:00,Walk in,143,2026-03-14,False,False,False,True,,83.0,Saturday,True,['5B'],1,False,['Indoor'],Indoor,Direct
+73,1.0,,,16,0 days 10:19:00,0 days 10:42:00,Walk in,143,2026-03-14,False,False,False,True,,23.0,Saturday,True,['16'],1,False,['Unknown'],Unknown,Direct
+74,1.0,,,8B,0 days 10:23:00,0 days 11:23:00,Walk in,143,2026-03-14,False,False,False,True,,60.0,Saturday,True,['8B'],1,False,['Outdoor'],Outdoor,Direct
+75,2.0,,,8A,0 days 10:25:00,0 days 11:05:00,In house,143,2026-03-14,False,False,False,True,,40.0,Saturday,True,['8A'],1,False,['Outdoor'],Outdoor,Direct
+76,2.0,,,8C,0 days 10:26:00,0 days 11:19:00,Walk in,143,2026-03-14,False,False,False,True,,53.0,Saturday,True,['8C'],1,False,['Outdoor'],Outdoor,Direct
+77,2.0,,,7B,0 days 10:30:00,0 days 12:00:00,Walk in,143,2026-03-14,False,False,False,True,,90.0,Saturday,True,['7B'],1,False,['Outdoor'],Outdoor,Direct
+78,3.0,,,1B-2A,0 days 10:41:00,0 days 11:54:00,Walk in,143,2026-03-14,False,False,False,True,,73.0,Saturday,True,"['1B', '2A']",2,True,"['Indoor', 'Indoor']",Indoor,Direct
+79,1.0,,,16,0 days 11:00:00,0 days 11:29:00,Walk in,143,2026-03-14,False,False,False,True,,29.0,Saturday,True,['16'],1,False,['Unknown'],Unknown,Direct
+80,2.0,,,1A,0 days 11:24:00,0 days 12:25:00,In house,143,2026-03-14,False,False,False,True,,61.0,Saturday,True,['1A'],1,False,['Indoor'],Indoor,Direct
+81,2.0,,,6,0 days 11:45:00,0 days 12:31:00,Walk in,143,2026-03-14,False,False,False,True,,46.0,Saturday,True,['6'],1,False,['Unknown'],Unknown,Direct
+1,2.0,,,10B,0 days 06:50:00,0 days 08:08:00,Walk in,153,2026-03-15,False,False,False,True,,78.0,Sunday,True,['10B'],1,False,['Outdoor'],Outdoor,Direct
+2,1.0,,,1,0 days 06:53:00,0 days 07:50:00,Walk in,153,2026-03-15,False,False,False,True,,57.0,Sunday,True,['1'],1,False,['Unknown'],Unknown,Direct
+3,1.0,,,7A,0 days 06:57:00,0 days 08:45:00,Walk in,153,2026-03-15,False,False,False,True,,108.0,Sunday,True,['7A'],1,False,['Outdoor'],Outdoor,Direct
+4,3.0,,,3B,0 days 07:02:00,0 days 08:00:00,Walk in,153,2026-03-15,False,False,False,True,,58.0,Sunday,True,['3B'],1,False,['Indoor'],Indoor,Direct
+5,2.0,,,4A,0 days 07:12:00,0 days 08:12:00,Walk in,153,2026-03-15,False,False,False,True,,60.0,Sunday,True,['4A'],1,False,['Indoor'],Indoor,Direct
+6,2.0,,,5B,0 days 07:13:00,0 days 08:05:00,In house,153,2026-03-15,False,False,False,True,,52.0,Sunday,True,['5B'],1,False,['Indoor'],Indoor,Direct
+7,0.0,,,11A,0 days 07:15:00,0 days 10:00:00,Walk in,153,2026-03-15,True,False,False,True,,165.0,Sunday,True,['11A'],1,False,['Outdoor'],Outdoor,Direct
+8,3.0,,,6,0 days 07:35:00,0 days 09:14:00,Walk in,153,2026-03-15,False,False,False,True,,99.0,Sunday,True,['6'],1,False,['Unknown'],Unknown,Direct
+9,1.0,,,7B,0 days 07:35:00,0 days 08:00:00,In house,153,2026-03-15,False,False,False,True,,25.0,Sunday,True,['7B'],1,False,['Outdoor'],Outdoor,Direct
+10,3.0,,,2,0 days 07:49:00,0 days 09:10:00,Walk in,153,2026-03-15,False,False,False,True,,81.0,Sunday,True,['2'],1,False,['Unknown'],Unknown,Direct
+11,2.0,,,1A,0 days 07:51:00,0 days 09:27:00,Walk in,153,2026-03-15,False,False,False,True,,96.0,Sunday,True,['1A'],1,False,['Indoor'],Indoor,Direct
+12,1.0,,,16,0 days 07:59:00,0 days 09:35:00,Walk in,153,2026-03-15,False,False,False,True,,96.0,Sunday,True,['16'],1,False,['Unknown'],Unknown,Direct
+13,2.0,,,8B,0 days 07:59:00,0 days 08:27:00,In house,153,2026-03-15,False,False,False,True,,28.0,Sunday,True,['8B'],1,False,['Outdoor'],Outdoor,Direct
+14,4.0,,,15,0 days 08:00:00,0 days 10:46:00,Walk in,153,2026-03-15,False,False,False,True,,166.0,Sunday,True,['15'],1,False,['Outdoor'],Outdoor,Direct
+15,2.0,,,1B,0 days 08:02:00,0 days 09:20:00,Walk in,153,2026-03-15,False,False,False,True,,78.0,Sunday,True,['1B'],1,False,['Indoor'],Indoor,Direct
+16,1.0,,,8C,0 days 08:03:00,0 days 09:22:00,Walk in,153,2026-03-15,False,False,False,True,,79.0,Sunday,True,['8C'],1,False,['Outdoor'],Outdoor,Direct
+17,3.0,,,3B,0 days 08:04:00,0 days 09:24:00,Walk in,153,2026-03-15,False,False,False,True,,80.0,Sunday,True,['3B'],1,False,['Indoor'],Indoor,Direct
+18,4.0,,,13-14,0 days 08:05:00,0 days 09:50:00,In house,153,2026-03-15,False,False,False,True,,105.0,Sunday,True,"['13', '14']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Direct
+19,2.0,,,4B,0 days 08:10:00,0 days 10:30:00,Walk in,153,2026-03-15,False,False,False,True,,140.0,Sunday,True,['4B'],1,False,['Indoor'],Indoor,Direct
+20,2.0,,,10A,0 days 08:10:00,0 days 09:54:00,Walk in,153,2026-03-15,False,False,False,True,,104.0,Sunday,True,['10A'],1,False,['Outdoor'],Outdoor,Direct
+21,0.0,,,4A,0 days 08:12:00,0 days 11:05:00,In house,153,2026-03-15,True,False,False,True,,173.0,Sunday,True,['4A'],1,False,['Indoor'],Indoor,Direct
+22,2.0,,,9,0 days 08:12:00,0 days 09:50:00,In house,153,2026-03-15,False,False,False,True,,98.0,Sunday,True,['9'],1,False,['Unknown'],Unknown,Direct
+23,2.0,,,4A,0 days 09:13:00,0 days 09:42:00,Walk in,153,2026-03-15,False,False,False,True,,29.0,Sunday,True,['4A'],1,False,['Indoor'],Indoor,Direct
+24,2.0,,,10B,0 days 08:14:00,0 days 10:15:00,Walk in,153,2026-03-15,False,False,False,True,,121.0,Sunday,True,['10B'],1,False,['Outdoor'],Outdoor,Direct
+25,2.0,,,12,0 days 08:15:00,0 days 10:07:00,Walk in,153,2026-03-15,False,False,False,True,,112.0,Sunday,True,['12'],1,False,['Outdoor'],Outdoor,Direct
+26,2.0,,,7C,0 days 08:16:00,0 days 09:33:00,Walk in,153,2026-03-15,False,False,False,True,,77.0,Sunday,True,['7C'],1,False,['Outdoor'],Outdoor,Direct
+27,2.0,,,7B,0 days 08:16:00,0 days 09:12:00,Walk in,153,2026-03-15,False,False,False,True,,56.0,Sunday,True,['7B'],1,False,['Outdoor'],Outdoor,Direct
+28,0.0,0 days 08:16:00,0 days 09:04:00,,,,In house,153,2026-03-15,True,True,True,False,48.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+29,2.0,0 days 08:16:00,0 days 09:05:00,11B,0 days 09:05:00,0 days 11:35:00,Walk in,153,2026-03-15,False,True,False,False,49.0,150.0,Sunday,True,['11B'],1,False,['Outdoor'],Outdoor,Queued
+30,2.0,0 days 08:16:00,0 days 08:29:00,8B,0 days 08:29:00,0 days 09:00:00,In house,153,2026-03-15,False,True,False,False,13.0,31.0,Sunday,True,['8B'],1,False,['Outdoor'],Outdoor,Queued
+31,1.0,0 days 08:17:00,0 days 08:45:00,7A,0 days 08:45:00,0 days 09:30:00,In house,153,2026-03-15,False,True,False,False,28.0,45.0,Sunday,True,['7A'],1,False,['Outdoor'],Outdoor,Queued
+32,3.0,0 days 08:18:00,0 days 09:10:00,2,0 days 09:10:00,0 days 10:33:00,Walk in,153,2026-03-15,False,True,False,False,52.0,83.0,Sunday,True,['2'],1,False,['Unknown'],Unknown,Queued
+33,3.0,0 days 08:20:00,0 days 09:13:00,3,0 days 09:13:00,0 days 10:20:00,Walk in,153,2026-03-15,False,True,False,False,53.0,67.0,Sunday,True,['3'],1,False,['Unknown'],Unknown,Queued
+34,2.0,0 days 08:30:00,0 days 09:15:00,7B,0 days 09:15:00,0 days 09:41:00,Walk in,153,2026-03-15,False,True,False,False,45.0,26.0,Sunday,True,['7B'],1,False,['Outdoor'],Outdoor,Queued
+35,4.0,0 days 08:35:00,0 days 09:16:00,6,0 days 09:16:00,0 days 10:03:00,Walk in,153,2026-03-15,False,True,False,False,41.0,47.0,Sunday,True,['6'],1,False,['Unknown'],Unknown,Queued
+36,4.0,0 days 08:40:00,0 days 09:27:00,4B/5A,0 days 09:27:00,0 days 10:44:00,Walk in,153,2026-03-15,False,True,False,False,47.0,77.0,Sunday,True,"['4B', '5A']",2,True,"['Indoor', 'Indoor']",Indoor,Queued
+37,2.0,0 days 08:44:00,0 days 09:20:00,,,,In house,153,2026-03-15,False,True,True,False,36.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+38,3.0,0 days 08:46:00,0 days 09:50:00,9,0 days 09:50:00,0 days 12:00:00,Walk in,153,2026-03-15,False,True,False,False,64.0,130.0,Sunday,True,['9'],1,False,['Unknown'],Unknown,Queued
+39,1.0,0 days 08:48:00,0 days 09:00:00,8B,0 days 09:00:00,0 days 10:52:00,Walk in,153,2026-03-15,False,True,False,False,12.0,112.0,Sunday,True,['8B'],1,False,['Outdoor'],Outdoor,Queued
+40,0.0,0 days 08:50:00,0 days 09:20:00,,,,In house,153,2026-03-15,True,True,True,False,30.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+41,1.0,0 days 08:53:00,0 days 09:25:00,1B,0 days 09:25:00,0 days 10:01:00,Walk in,153,2026-03-15,False,True,False,False,32.0,36.0,Sunday,True,['1B'],1,False,['Indoor'],Indoor,Queued
+42,1.0,0 days 08:54:00,0 days 09:25:00,1A,0 days 09:25:00,0 days 10:05:00,In house,153,2026-03-15,False,True,False,False,31.0,40.0,Sunday,True,['1A'],1,False,['Indoor'],Indoor,Queued
+43,2.0,0 days 08:57:00,0 days 09:25:00,8C,0 days 09:25:00,0 days 11:41:00,Walk in,153,2026-03-15,False,True,False,False,28.0,136.0,Sunday,True,['8C'],1,False,['Outdoor'],Outdoor,Queued
+44,3.0,0 days 08:58:00,0 days 09:33:00,7A,0 days 09:33:00,0 days 10:44:00,Walk in,153,2026-03-15,False,True,False,False,35.0,71.0,Sunday,True,['7A'],1,False,['Outdoor'],Outdoor,Queued
+45,2.0,0 days 08:16:00,0 days 09:07:00,8A,0 days 09:07:00,0 days 09:47:00,Walk in,153,2026-03-15,False,True,False,False,51.0,40.0,Sunday,True,['8A'],1,False,['Outdoor'],Outdoor,Queued
+46,2.0,0 days 09:08:00,0 days 09:40:00,16,0 days 09:40:00,0 days 10:13:00,In house,153,2026-03-15,False,True,False,False,32.0,33.0,Sunday,True,['16'],1,False,['Unknown'],Unknown,Queued
+47,3.0,0 days 09:08:00,0 days 10:05:00,6,0 days 10:05:00,0 days 12:00:00,Walk in,153,2026-03-15,False,True,False,False,57.0,115.0,Sunday,True,['6'],1,False,['Unknown'],Unknown,Queued
+48,2.0,0 days 09:10:00,0 days 09:17:00,,,,In house,153,2026-03-15,False,True,True,False,7.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+49,0.0,0 days 09:10:00,0 days 09:55:00,,,,Walk in,153,2026-03-15,True,True,True,False,45.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+50,5.0,0 days 09:10:00,0 days 09:55:00,4A/11B,0 days 09:55:00,0 days 11:25:00,Walk in,153,2026-03-15,False,True,False,False,45.0,90.0,Sunday,True,"['4A', '11B']",2,True,"['Indoor', 'Outdoor']",Mixed,Queued
+51,1.0,0 days 09:17:00,0 days 10:05:00,1A,0 days 10:05:00,0 days 11:14:00,In house,153,2026-03-15,False,True,False,False,48.0,69.0,Sunday,True,['1A'],1,False,['Indoor'],Indoor,Queued
+52,3.0,0 days 09:25:00,0 days 10:09:00,12,0 days 10:09:00,0 days 11:20:00,Walk in,153,2026-03-15,False,True,False,False,44.0,71.0,Sunday,True,['12'],1,False,['Outdoor'],Outdoor,Queued
+53,3.0,0 days 09:25:00,0 days 10:11:00,11A,0 days 10:11:00,0 days 11:35:00,Walk in,153,2026-03-15,False,True,False,False,46.0,84.0,Sunday,True,['11A'],1,False,['Outdoor'],Outdoor,Queued
+54,5.0,0 days 09:33:00,0 days 10:17:00,16,0 days 10:17:00,0 days 11:00:00,In house,153,2026-03-15,False,True,False,False,44.0,43.0,Sunday,True,['16'],1,False,['Unknown'],Unknown,Queued
+55,4.0,0 days 09:35:00,0 days 10:30:00,,,,In house,153,2026-03-15,False,True,True,False,55.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+56,2.0,0 days 09:36:00,0 days 10:35:00,2,0 days 10:35:00,0 days 11:10:00,Walk in,153,2026-03-15,False,True,False,False,59.0,35.0,Sunday,True,['2'],1,False,['Unknown'],Unknown,Queued
+57,1.0,0 days 09:37:00,0 days 10:45:00,7A,0 days 10:45:00,0 days 11:15:00,Walk in,153,2026-03-15,False,True,False,False,68.0,30.0,Sunday,True,['7A'],1,False,['Outdoor'],Outdoor,Queued
+58,2.0,0 days 09:37:00,0 days 09:48:00,,,,Walk in,153,2026-03-15,False,True,True,False,11.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+59,2.0,0 days 09:38:00,0 days 10:45:00,4B/5A,0 days 10:45:00,0 days 11:30:00,In house,153,2026-03-15,False,True,False,False,67.0,45.0,Sunday,True,"['4B', '5A']",2,True,"['Indoor', 'Indoor']",Indoor,Queued
+60,0.0,0 days 09:40:00,0 days 10:48:00,,,,Walk in,153,2026-03-15,True,True,True,False,68.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+61,2.0,0 days 09:42:00,0 days 10:50:00,15A,0 days 10:50:00,0 days 11:55:00,Walk in,153,2026-03-15,False,True,False,False,68.0,65.0,Sunday,True,['15A'],1,False,['Unknown'],Unknown,Queued
+62,2.0,0 days 09:45:00,0 days 10:50:00,15B,0 days 10:50:00,0 days 11:26:00,Walk in,153,2026-03-15,False,True,False,False,65.0,36.0,Sunday,True,['15B'],1,False,['Unknown'],Unknown,Queued
+63,2.0,0 days 09:46:00,0 days 10:55:00,8B,0 days 10:55:00,0 days 12:07:00,In house,153,2026-03-15,False,True,False,False,69.0,72.0,Sunday,True,['8B'],1,False,['Outdoor'],Outdoor,Queued
+64,2.0,0 days 09:47:00,0 days 11:03:00,7C,0 days 11:03:00,0 days 11:43:00,Walk in,153,2026-03-15,False,True,False,False,76.0,40.0,Sunday,True,['7C'],1,False,['Outdoor'],Outdoor,Queued
+65,2.0,0 days 09:57:00,0 days 11:05:00,,,,Walk in,153,2026-03-15,False,True,True,False,68.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+66,4.0,0 days 10:07:00,0 days 11:05:00,3,0 days 11:05:00,0 days 12:25:00,Walk in,153,2026-03-15,False,True,False,False,58.0,80.0,Sunday,True,['3'],1,False,['Unknown'],Unknown,Queued
+67,2.0,0 days 10:15:00,0 days 11:06:00,10A,0 days 10:06:00,0 days 12:06:00,Walk in,153,2026-03-15,False,True,False,False,51.0,120.0,Sunday,True,['10A'],1,False,['Outdoor'],Outdoor,Queued
+68,2.0,0 days 09:10:00,0 days 10:30:00,5B,0 days 10:30:00,0 days 12:10:00,Walk in,153,2026-03-15,False,True,False,False,80.0,100.0,Sunday,True,['5B'],1,False,['Indoor'],Indoor,Queued
+69,1.0,0 days 10:23:00,0 days 11:09:00,4A,0 days 11:09:00,0 days 12:20:00,Walk in,153,2026-03-15,False,True,False,False,46.0,71.0,Sunday,True,['4A'],1,False,['Indoor'],Indoor,Queued
+70,1.0,0 days 10:24:00,0 days 11:09:00,8A,0 days 11:09:00,0 days 12:10:00,Walk in,153,2026-03-15,False,True,False,False,45.0,61.0,Sunday,True,['8A'],1,False,['Outdoor'],Outdoor,Queued
+71,1.0,0 days 10:25:00,0 days 11:15:00,,,,Walk in,153,2026-03-15,False,True,True,False,50.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+72,1.0,0 days 10:40:00,0 days 11:10:00,2B,0 days 11:10:00,0 days 11:50:00,Walk in,153,2026-03-15,False,True,False,False,30.0,40.0,Sunday,True,['2B'],1,False,['Indoor'],Indoor,Queued
+73,2.0,0 days 10:41:00,0 days 11:12:00,16,0 days 11:12:00,0 days 11:43:00,Walk in,153,2026-03-15,False,True,False,False,31.0,31.0,Sunday,True,['16'],1,False,['Unknown'],Unknown,Queued
+74,1.0,0 days 10:53:00,0 days 11:05:00,,,,Walk in,153,2026-03-15,False,True,True,False,12.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+75,3.0,0 days 10:55:00,0 days 11:40:00,13-14,0 days 11:40:00,0 days 12:30:00,In house,153,2026-03-15,False,True,False,False,45.0,50.0,Sunday,True,"['13', '14']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Queued
+76,2.0,0 days 11:00:00,0 days 11:14:00,2A,0 days 11:14:00,0 days 11:35:00,In house,153,2026-03-15,False,True,False,False,14.0,21.0,Sunday,True,['2A'],1,False,['Indoor'],Indoor,Queued
+77,1.0,0 days 11:14:00,0 days 11:15:00,,,,In house,153,2026-03-15,False,True,True,False,1.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+78,0.0,0 days 11:14:00,0 days 11:20:00,,,,Walk in,153,2026-03-15,True,True,True,False,6.0,,Sunday,True,[],0,False,['Unknown'],Unknown,Walk-away
+79,2.0,0 days 11:15:00,0 days 11:20:00,7A,0 days 11:20:00,0 days 11:55:00,In house,153,2026-03-15,False,True,False,False,5.0,35.0,Sunday,True,['7A'],1,False,['Outdoor'],Outdoor,Queued
+80,2.0,0 days 11:15:00,0 days 11:23:00,1B,0 days 11:23:00,0 days 12:20:00,In house,153,2026-03-15,False,True,False,False,8.0,57.0,Sunday,True,['1B'],1,False,['Indoor'],Indoor,Queued
+81,2.0,,,12,0 days 11:12:00,0 days 12:30:00,In house,153,2026-03-15,False,False,False,True,,78.0,Sunday,True,['12'],1,False,['Outdoor'],Outdoor,Direct
+82,1.0,,,12,0 days 11:25:00,0 days 12:00:00,In house,153,2026-03-15,False,False,False,True,,35.0,Sunday,True,['12'],1,False,['Outdoor'],Outdoor,Direct
+83,1.0,0 days 11:25:00,0 days 11:27:00,15B,0 days 11:27:00,0 days 12:00:00,In house,153,2026-03-15,False,True,False,False,2.0,33.0,Sunday,True,['15B'],1,False,['Unknown'],Unknown,Queued
+84,1.0,,,4B,0 days 11:30:00,0 days 12:15:00,In house,153,2026-03-15,False,False,False,True,,45.0,Sunday,True,['4B'],1,False,['Indoor'],Indoor,Direct
+85,1.0,,,12,0 days 11:40:00,0 days 12:30:00,Walk in,153,2026-03-15,False,False,False,True,,50.0,Sunday,True,['12'],1,False,['Outdoor'],Outdoor,Direct
+86,1.0,,,16,0 days 11:45:00,0 days 12:30:00,In house,153,2026-03-15,False,False,False,True,,45.0,Sunday,True,['16'],1,False,['Unknown'],Unknown,Direct
+1,1.0,,,10A,0 days 06:36:00,0 days 09:18:00,Walk in,173,2026-03-17,False,False,False,True,,162.0,Tuesday,False,['10A'],1,False,['Outdoor'],Outdoor,Direct
+2,2.0,,,5,0 days 06:37:00,0 days 07:47:00,Walk in,173,2026-03-17,False,False,False,True,,70.0,Tuesday,False,['5'],1,False,['Unknown'],Unknown,Direct
+3,1.0,,,6B,0 days 06:40:00,0 days 09:00:00,Walk in,173,2026-03-17,False,False,False,True,,140.0,Tuesday,False,['6B'],1,False,['Indoor'],Indoor,Direct
+4,1.0,,,16,0 days 06:41:00,0 days 07:21:00,In house,173,2026-03-17,False,False,False,True,,40.0,Tuesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+5,2.0,,,7A,0 days 06:52:00,0 days 07:54:00,Walk in,173,2026-03-17,False,False,False,True,,62.0,Tuesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+6,1.0,,,1A,0 days 06:58:00,0 days 07:54:00,Walk in,173,2026-03-17,False,False,False,True,,56.0,Tuesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+7,1.0,,,1B,0 days 07:00:00,0 days 07:23:00,In house,173,2026-03-17,False,False,False,True,,23.0,Tuesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+8,4.0,,,4,0 days 07:00:00,0 days 08:34:00,In house,173,2026-03-17,False,False,False,True,,94.0,Tuesday,False,['4'],1,False,['Unknown'],Unknown,Direct
+9,1.0,,,8A,0 days 07:05:00,0 days 07:30:00,In house,173,2026-03-17,False,False,False,True,,25.0,Tuesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+10,1.0,,,7B,0 days 07:12:00,0 days 07:36:00,In house,173,2026-03-17,False,False,False,True,,24.0,Tuesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+11,2.0,,,8B,0 days 07:13:00,0 days 07:56:00,In house,173,2026-03-17,False,False,False,True,,43.0,Tuesday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+12,2.0,,,12,0 days 07:15:00,0 days 07:42:00,In house,173,2026-03-17,False,False,False,True,,27.0,Tuesday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+13,2.0,,,4,0 days 07:20:00,0 days 07:56:00,In house,173,2026-03-17,False,False,False,True,,36.0,Tuesday,False,['4'],1,False,['Unknown'],Unknown,Direct
+14,1.0,,,11A,0 days 07:30:00,0 days 08:35:00,Walk in,173,2026-03-17,False,False,False,True,,65.0,Tuesday,False,['11A'],1,False,['Outdoor'],Outdoor,Direct
+15,1.0,,,3,0 days 07:30:00,0 days 07:41:00,In house,173,2026-03-17,False,False,False,True,,11.0,Tuesday,False,['3'],1,False,['Unknown'],Unknown,Direct
+16,2.0,,,1B,0 days 07:36:00,0 days 07:56:00,Walk in,173,2026-03-17,False,False,False,True,,20.0,Tuesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+17,1.0,,,8A,0 days 07:35:00,0 days 08:02:00,In house,173,2026-03-17,False,False,False,True,,27.0,Tuesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+18,1.0,,,16,0 days 07:37:00,0 days 08:50:00,Walk in,173,2026-03-17,False,False,False,True,,73.0,Tuesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+19,2.0,,,6,0 days 07:40:00,0 days 11:20:00,Walk in,173,2026-03-17,False,False,False,True,,220.0,Tuesday,False,['6'],1,False,['Unknown'],Unknown,Direct
+20,1.0,,,7B,0 days 07:40:00,0 days 09:25:00,Walk in,173,2026-03-17,False,False,False,True,,105.0,Tuesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+21,1.0,,,7C,0 days 07:41:00,0 days 07:59:00,In house,173,2026-03-17,False,False,False,True,,18.0,Tuesday,False,['7C'],1,False,['Outdoor'],Outdoor,Direct
+22,1.0,,,12,0 days 07:46:00,0 days 07:56:00,In house,173,2026-03-17,False,False,False,True,,10.0,Tuesday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+23,2.0,,,3,0 days 07:48:00,0 days 08:46:00,In house,173,2026-03-17,False,False,False,True,,58.0,Tuesday,False,['3'],1,False,['Unknown'],Unknown,Direct
+24,2.0,,,14,0 days 07:51:00,0 days 08:21:00,Walk in,173,2026-03-17,False,False,False,True,,30.0,Tuesday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+25,6.0,,,4,0 days 07:56:00,0 days 08:56:00,Walk in,173,2026-03-17,False,False,False,True,,60.0,Tuesday,False,['4'],1,False,['Unknown'],Unknown,Direct
+26,2.0,,,1A,0 days 08:05:00,0 days 09:04:00,Walk in,173,2026-03-17,False,False,False,True,,59.0,Tuesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+27,2.0,,,8B,0 days 08:05:00,0 days 08:52:00,In house,173,2026-03-17,False,False,False,True,,47.0,Tuesday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+28,3.0,,,9,0 days 08:06:00,0 days 08:53:00,Walk in,173,2026-03-17,False,False,False,True,,47.0,Tuesday,False,['9'],1,False,['Unknown'],Unknown,Direct
+29,1.0,,,8A,0 days 08:16:00,0 days 09:29:00,Walk in,173,2026-03-17,False,False,False,True,,73.0,Tuesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+30,2.0,,,12,0 days 08:23:00,0 days 09:07:00,In house,173,2026-03-17,False,False,False,True,,44.0,Tuesday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+31,2.0,,,1B,0 days 08:24:00,0 days 09:49:00,Walk in,173,2026-03-17,False,False,False,True,,85.0,Tuesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+32,1.0,,,2B,0 days 08:33:00,0 days 09:13:00,Walk in,173,2026-03-17,False,False,False,True,,40.0,Tuesday,False,['2B'],1,False,['Indoor'],Indoor,Direct
+33,2.0,,,7A,0 days 08:43:00,0 days 09:21:00,In house,173,2026-03-17,False,False,False,True,,38.0,Tuesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+34,2.0,,,14,0 days 08:41:00,0 days 09:31:00,Walk in,173,2026-03-17,False,False,False,True,,50.0,Tuesday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+35,1.0,,,8C,0 days 08:43:00,0 days 09:20:00,Walk in,173,2026-03-17,False,False,False,True,,37.0,Tuesday,False,['8C'],1,False,['Outdoor'],Outdoor,Direct
+36,2.0,,,11B,0 days 08:50:00,0 days 09:30:00,In house,173,2026-03-17,False,False,False,True,,40.0,Tuesday,False,['11B'],1,False,['Outdoor'],Outdoor,Direct
+37,1.0,,,15,0 days 08:56:00,0 days 09:12:00,In house,173,2026-03-17,False,False,False,True,,16.0,Tuesday,False,['15'],1,False,['Outdoor'],Outdoor,Direct
+38,1.0,,,16,0 days 09:05:00,0 days 09:37:00,Walk in,173,2026-03-17,False,False,False,True,,32.0,Tuesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+39,2.0,,,4,0 days 09:05:00,0 days 11:15:00,Walk in,173,2026-03-17,False,False,False,True,,130.0,Tuesday,False,['4'],1,False,['Unknown'],Unknown,Direct
+40,2.0,,,8B,0 days 09:10:00,0 days 10:22:00,In house,173,2026-03-17,False,False,False,True,,72.0,Tuesday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+41,2.0,,,1A,0 days 09:14:00,0 days 10:23:00,Walk in,173,2026-03-17,False,False,False,True,,69.0,Tuesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+42,1.0,,,1B,0 days 09:16:00,0 days 10:46:00,Walk in,173,2026-03-17,False,False,False,True,,90.0,Tuesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+43,3.0,,,11,0 days 09:30:00,0 days 10:06:00,In house,173,2026-03-17,False,False,False,True,,36.0,Tuesday,False,['11'],1,False,['Unknown'],Unknown,Direct
+44,1.0,,,7A,0 days 09:32:00,0 days 09:53:00,In house,173,2026-03-17,False,False,False,True,,21.0,Tuesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+45,3.0,,,10,0 days 09:35:00,0 days 10:23:00,In house,173,2026-03-17,False,False,False,True,,48.0,Tuesday,False,['10'],1,False,['Unknown'],Unknown,Direct
+46,1.0,,,8A,0 days 08:36:00,0 days 12:13:00,In house,173,2026-03-17,False,False,False,True,,217.0,Tuesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+47,2.0,,,2,0 days 09:41:00,0 days 10:06:00,In house,173,2026-03-17,False,False,False,True,,25.0,Tuesday,False,['2'],1,False,['Unknown'],Unknown,Direct
+48,2.0,,,16,0 days 09:45:00,0 days 10:18:00,In house,173,2026-03-17,False,False,False,True,,33.0,Tuesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+49,2.0,,,4,0 days 09:50:00,0 days 11:51:00,Walk in,173,2026-03-17,False,False,False,True,,121.0,Tuesday,False,['4'],1,False,['Unknown'],Unknown,Direct
+50,2.0,,,7A,0 days 09:52:00,0 days 11:00:00,Walk in,173,2026-03-17,False,False,False,True,,68.0,Tuesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+51,2.0,,,5B,0 days 09:54:00,0 days 10:54:00,In house,173,2026-03-17,False,False,False,True,,60.0,Tuesday,False,['5B'],1,False,['Indoor'],Indoor,Direct
+52,1.0,,,5A,0 days 08:54:00,0 days 10:58:00,In house,173,2026-03-17,False,False,False,True,,124.0,Tuesday,False,['5A'],1,False,['Indoor'],Indoor,Direct
+53,1.0,,,12,0 days 10:09:00,0 days 10:25:00,Walk in,173,2026-03-17,False,False,False,True,,16.0,Tuesday,False,['12'],1,False,['Outdoor'],Outdoor,Direct
+54,1.0,,,3,0 days 10:10:00,0 days 11:24:00,In house,173,2026-03-17,False,False,False,True,,74.0,Tuesday,False,['3'],1,False,['Unknown'],Unknown,Direct
+55,2.0,,,9,0 days 10:11:00,0 days 10:43:00,Walk in,173,2026-03-17,False,False,False,True,,32.0,Tuesday,False,['9'],1,False,['Unknown'],Unknown,Direct
+56,2.0,,,2,0 days 10:20:00,0 days 12:15:00,Walk in,173,2026-03-17,False,False,False,True,,115.0,Tuesday,False,['2'],1,False,['Unknown'],Unknown,Direct
+57,1.0,,,1A,0 days 10:28:00,0 days 11:08:00,Walk in,173,2026-03-17,False,False,False,True,,40.0,Tuesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+58,3.0,,,7B/7A,0 days 10:35:00,0 days 11:23:00,In house,173,2026-03-17,False,False,False,True,,48.0,Tuesday,False,"['7B', '7A']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Direct
+59,2.0,,,10,0 days 10:37:00,0 days 11:09:00,Walk in,173,2026-03-17,False,False,False,True,,32.0,Tuesday,False,['10'],1,False,['Unknown'],Unknown,Direct
+60,3.0,,,15,0 days 10:39:00,0 days 12:11:00,Walk in,173,2026-03-17,False,False,False,True,,92.0,Tuesday,False,['15'],1,False,['Outdoor'],Outdoor,Direct
+61,2.0,,,14,0 days 10:40:00,0 days 11:24:00,In house,173,2026-03-17,False,False,False,True,,44.0,Tuesday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+62,2.0,,,16,0 days 10:44:00,0 days 11:40:00,Walk in,173,2026-03-17,False,False,False,True,,56.0,Tuesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+63,1.0,,,8C,0 days 10:50:00,0 days 11:30:00,In house,173,2026-03-17,False,False,False,True,,40.0,Tuesday,False,['8C'],1,False,['Outdoor'],Outdoor,Direct
+64,2.0,,,5,0 days 11:04:00,0 days 12:02:00,Walk in,173,2026-03-17,False,False,False,True,,58.0,Tuesday,False,['5'],1,False,['Unknown'],Unknown,Direct
+65,1.0,,,6B,0 days 11:05:00,0 days 11:25:00,Walk in,173,2026-03-17,False,False,False,True,,20.0,Tuesday,False,['6B'],1,False,['Indoor'],Indoor,Direct
+66,1.0,,,7A,0 days 11:21:00,0 days 11:39:00,Walk in,173,2026-03-17,False,False,False,True,,18.0,Tuesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+67,2.0,,,9,0 days 11:24:00,0 days 11:48:00,In house,173,2026-03-17,False,False,False,True,,24.0,Tuesday,False,['9'],1,False,['Unknown'],Unknown,Direct
+68,1.0,,,1,0 days 11:23:00,0 days 12:02:00,Walk in,173,2026-03-17,False,False,False,True,,39.0,Tuesday,False,['1'],1,False,['Unknown'],Unknown,Direct
+69,1.0,,,7B,0 days 11:43:00,0 days 12:04:00,In house,173,2026-03-17,False,False,False,True,,21.0,Tuesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+1,1.0,,,4A,0 days 06:26:00,0 days 08:42:00,Walk in,183,2026-03-18,False,False,False,True,,136.0,Wednesday,False,['4A'],1,False,['Indoor'],Indoor,Direct
+2,2.0,,,11,0 days 06:44:00,0 days 07:44:00,Walk in,183,2026-03-18,False,False,False,True,,60.0,Wednesday,False,['11'],1,False,['Unknown'],Unknown,Direct
+3,1.0,,,7A,0 days 06:58:00,0 days 08:46:00,Walk in,183,2026-03-18,False,False,False,True,,108.0,Wednesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+4,2.0,,,16,0 days 07:07:00,0 days 07:53:00,In house,183,2026-03-18,False,False,False,True,,46.0,Wednesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+5,1.0,,,8A,0 days 02:29:00,0 days 07:50:00,In house,183,2026-03-18,False,False,False,True,,321.0,Wednesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+6,1.0,,,8C,0 days 07:34:00,0 days 07:47:00,In house,183,2026-03-18,False,False,False,True,,13.0,Wednesday,False,['8C'],1,False,['Outdoor'],Outdoor,Direct
+7,1.0,,,6,0 days 07:35:00,0 days 07:45:00,In house,183,2026-03-18,False,False,False,True,,10.0,Wednesday,False,['6'],1,False,['Unknown'],Unknown,Direct
+8,1.0,,,10B,0 days 07:44:00,0 days 07:59:00,In house,183,2026-03-18,False,False,False,True,,15.0,Wednesday,False,['10B'],1,False,['Outdoor'],Outdoor,Direct
+9,2.0,,,1,0 days 07:45:00,0 days 08:07:00,In house,183,2026-03-18,False,False,False,True,,22.0,Wednesday,False,['1'],1,False,['Unknown'],Unknown,Direct
+10,2.0,,,6,0 days 07:46:00,0 days 09:27:00,In house,183,2026-03-18,False,False,False,True,,101.0,Wednesday,False,['6'],1,False,['Unknown'],Unknown,Direct
+11,1.0,,,7B,0 days 07:49:00,0 days 08:13:00,In house,183,2026-03-18,False,False,False,True,,24.0,Wednesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+12,1.0,,,8A,0 days 07:55:00,0 days 09:21:00,Walk in,183,2026-03-18,False,False,False,True,,86.0,Wednesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+13,1.0,,,4B,0 days 07:58:00,0 days 08:59:00,Walk in,183,2026-03-18,False,False,False,True,,61.0,Wednesday,False,['4B'],1,False,['Indoor'],Indoor,Direct
+14,2.0,,,16,0 days 08:03:00,0 days 08:35:00,Walk in,183,2026-03-18,False,False,False,True,,32.0,Wednesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+15,2.0,,,10B,0 days 08:05:00,0 days 08:50:00,In house,183,2026-03-18,False,False,False,True,,45.0,Wednesday,False,['10B'],1,False,['Outdoor'],Outdoor,Direct
+16,2.0,,,11A,0 days 08:06:00,0 days 08:36:00,In house,183,2026-03-18,False,False,False,True,,30.0,Wednesday,False,['11A'],1,False,['Outdoor'],Outdoor,Direct
+17,1.0,,,1A,0 days 08:15:00,0 days 09:00:00,Walk in,183,2026-03-18,False,False,False,True,,45.0,Wednesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+18,1.0,,,1B,0 days 08:16:00,0 days 09:54:00,Walk in,183,2026-03-18,False,False,False,True,,98.0,Wednesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+19,1.0,,,7B,0 days 08:18:00,0 days 09:37:00,Walk in,183,2026-03-18,False,False,False,True,,79.0,Wednesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+20,2.0,,,3,0 days 08:25:00,0 days 09:05:00,In house,183,2026-03-18,False,False,False,True,,40.0,Wednesday,False,['3'],1,False,['Unknown'],Unknown,Direct
+21,2.0,,,8B,0 days 08:28:00,0 days 09:06:00,In house,183,2026-03-18,False,False,False,True,,38.0,Wednesday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+22,2.0,,,15,0 days 08:29:00,0 days 09:19:00,Walk in,183,2026-03-18,False,False,False,True,,50.0,Wednesday,False,['15'],1,False,['Outdoor'],Outdoor,Direct
+23,4.0,,,2,0 days 08:30:00,0 days 09:10:00,In house,183,2026-03-18,False,False,False,True,,40.0,Wednesday,False,['2'],1,False,['Unknown'],Unknown,Direct
+24,1.0,,,16,0 days 08:40:00,0 days 09:29:00,Walk in,183,2026-03-18,False,False,False,True,,49.0,Wednesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+25,2.0,,,11B,0 days 08:42:00,0 days 09:35:00,In house,183,2026-03-18,False,False,False,True,,53.0,Wednesday,False,['11B'],1,False,['Outdoor'],Outdoor,Direct
+26,3.0,,,5,0 days 08:43:00,0 days 08:58:00,In house,183,2026-03-18,False,False,False,True,,15.0,Wednesday,False,['5'],1,False,['Unknown'],Unknown,Direct
+27,1.0,,,7B,0 days 08:44:00,0 days 09:13:00,In house,183,2026-03-18,False,False,False,True,,29.0,Wednesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+28,5.0,,,12/13,0 days 08:47:00,0 days 10:26:00,Walk in,183,2026-03-18,False,False,False,True,,99.0,Wednesday,False,"['12', '13']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Direct
+29,1.0,,,4A,0 days 08:49:00,0 days 09:25:00,Walk in,183,2026-03-18,False,False,False,True,,36.0,Wednesday,False,['4A'],1,False,['Indoor'],Indoor,Direct
+30,1.0,,,7A,0 days 08:49:00,0 days 10:55:00,In house,183,2026-03-18,False,False,False,True,,126.0,Wednesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+31,1.0,,,14,0 days 08:43:00,0 days 09:35:00,In house,183,2026-03-18,False,False,False,True,,52.0,Wednesday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+32,2.0,,,5B,0 days 09:00:00,0 days 10:00:00,In house,183,2026-03-18,False,False,False,True,,60.0,Wednesday,False,['5B'],1,False,['Indoor'],Indoor,Direct
+33,1.0,,,8B,0 days 09:08:00,0 days 10:03:00,Walk in,183,2026-03-18,False,False,False,True,,55.0,Wednesday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+34,2.0,,,1A,0 days 09:11:00,0 days 10:11:00,In house,183,2026-03-18,False,False,False,True,,60.0,Wednesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+35,4.0,,,9,0 days 09:12:00,0 days 10:08:00,Walk in,183,2026-03-18,False,False,False,True,,56.0,Wednesday,False,['9'],1,False,['Unknown'],Unknown,Direct
+36,2.0,,,3,0 days 09:13:00,0 days 10:05:00,Walk in,183,2026-03-18,False,False,False,True,,52.0,Wednesday,False,['3'],1,False,['Unknown'],Unknown,Direct
+37,2.0,,,4B/5A,0 days 09:20:00,0 days 09:54:00,Walk in,183,2026-03-18,False,False,False,True,,34.0,Wednesday,False,"['4B', '5A']",2,True,"['Indoor', 'Indoor']",Indoor,Direct
+38,2.0,,,15,0 days 09:22:00,0 days 10:15:00,Walk in,183,2026-03-18,False,False,False,True,,53.0,Wednesday,False,['15'],1,False,['Outdoor'],Outdoor,Direct
+39,1.0,,,4A,0 days 09:37:00,0 days 10:46:00,Walk in,183,2026-03-18,False,False,False,True,,69.0,Wednesday,False,['4A'],1,False,['Indoor'],Indoor,Direct
+40,1.0,,,6B,0 days 09:47:00,0 days 12:10:00,Walk in,183,2026-03-18,False,False,False,True,,143.0,Wednesday,False,['6B'],1,False,['Indoor'],Indoor,Direct
+41,1.0,,,6A,0 days 09:48:00,0 days 10:45:00,Walk in,183,2026-03-18,False,False,False,True,,57.0,Wednesday,False,['6A'],1,False,['Indoor'],Indoor,Direct
+42,4.0,,,2,0 days 09:49:00,0 days 11:41:00,Walk in,183,2026-03-18,False,False,False,True,,112.0,Wednesday,False,['2'],1,False,['Unknown'],Unknown,Direct
+43,2.0,,,16,0 days 09:56:00,0 days 10:45:00,Walk in,183,2026-03-18,False,False,False,True,,49.0,Wednesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+44,2.0,,,7B,0 days 09:58:00,0 days 10:17:00,In house,183,2026-03-18,False,False,False,True,,19.0,Wednesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+45,2.0,,,14,0 days 09:59:00,0 days 10:28:00,In house,183,2026-03-18,False,False,False,True,,29.0,Wednesday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+46,2.0,,,1B,0 days 10:03:00,0 days 10:49:00,In house,183,2026-03-18,False,False,False,True,,46.0,Wednesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+47,3.0,,,4B/5A,0 days 10:05:00,0 days 11:02:00,In house,183,2026-03-18,False,False,False,True,,57.0,Wednesday,False,"['4B', '5A']",2,True,"['Indoor', 'Indoor']",Indoor,Direct
+48,2.0,,,11A,0 days 10:10:00,0 days 10:52:00,In house,183,2026-03-18,False,False,False,True,,42.0,Wednesday,False,['11A'],1,False,['Outdoor'],Outdoor,Direct
+49,2.0,,,8A,0 days 10:16:00,0 days 11:02:00,Walk in,183,2026-03-18,False,False,False,True,,46.0,Wednesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+50,1.0,,,1A,0 days 10:19:00,0 days 11:30:00,Walk in,183,2026-03-18,False,False,False,True,,71.0,Wednesday,False,['1A'],1,False,['Indoor'],Indoor,Direct
+51,4.0,,,9,0 days 10:28:00,0 days 12:15:00,Walk in,183,2026-03-18,False,False,False,True,,107.0,Wednesday,False,['9'],1,False,['Unknown'],Unknown,Direct
+52,1.0,,,14,0 days 10:30:00,0 days 11:28:00,In house,183,2026-03-18,False,False,False,True,,58.0,Wednesday,False,['14'],1,False,['Outdoor'],Outdoor,Direct
+53,1.0,,,8C,0 days 10:30:00,0 days 11:13:00,In house,183,2026-03-18,False,False,False,True,,43.0,Wednesday,False,['8C'],1,False,['Outdoor'],Outdoor,Direct
+54,2.0,,,7B,0 days 10:36:00,0 days 11:50:00,Walk in,183,2026-03-18,False,False,False,True,,74.0,Wednesday,False,['7B'],1,False,['Outdoor'],Outdoor,Direct
+55,1.0,,,10B,0 days 10:38:00,0 days 11:58:00,In house,183,2026-03-18,False,False,False,True,,80.0,Wednesday,False,['10B'],1,False,['Outdoor'],Outdoor,Direct
+56,2.0,,,15,0 days 10:34:00,0 days 11:24:00,Walk in,183,2026-03-18,False,False,False,True,,50.0,Wednesday,False,['15'],1,False,['Outdoor'],Outdoor,Direct
+57,2.0,,,3,0 days 10:35:00,0 days 11:12:00,In house,183,2026-03-18,False,False,False,True,,37.0,Wednesday,False,['3'],1,False,['Unknown'],Unknown,Direct
+58,1.0,,,1B,0 days 10:39:00,0 days 13:30:00,Walk in,183,2026-03-18,False,False,False,True,,171.0,Wednesday,False,['1B'],1,False,['Indoor'],Indoor,Direct
+59,3.0,,,12/13,0 days 10:41:00,0 days 11:40:00,Walk in,183,2026-03-18,False,False,False,True,,59.0,Wednesday,False,"['12', '13']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Direct
+60,2.0,,,16,0 days 10:54:00,0 days 11:58:00,Walk in,183,2026-03-18,False,False,False,True,,64.0,Wednesday,False,['16'],1,False,['Unknown'],Unknown,Direct
+61,1.0,,,4A,0 days 10:56:00,0 days 11:39:00,Walk in,183,2026-03-18,False,False,False,True,,43.0,Wednesday,False,['4A'],1,False,['Indoor'],Indoor,Direct
+62,1.0,,,5B,0 days 11:53:00,0 days 11:28:00,In house,183,2026-03-18,False,False,False,True,,0.0,Wednesday,False,['5B'],1,False,['Indoor'],Indoor,Direct
+63,2.0,,,7A,0 days 11:00:00,0 days 11:59:00,In house,183,2026-03-18,False,False,False,True,,59.0,Wednesday,False,['7A'],1,False,['Outdoor'],Outdoor,Direct
+64,1.0,,,8A,0 days 11:08:00,0 days 11:44:00,Walk in,183,2026-03-18,False,False,False,True,,36.0,Wednesday,False,['8A'],1,False,['Outdoor'],Outdoor,Direct
+65,3.0,,,11A/11B,0 days 11:10:00,0 days 12:14:00,In house,183,2026-03-18,False,False,False,True,,64.0,Wednesday,False,"['11A', '11B']",2,True,"['Outdoor', 'Outdoor']",Outdoor,Direct
+66,2.0,,,15,0 days 11:28:00,0 days 11:51:00,In house,183,2026-03-18,False,False,False,True,,23.0,Wednesday,False,['15'],1,False,['Outdoor'],Outdoor,Direct
+67,1.0,,,7C,0 days 11:29:00,0 days 12:14:00,In house,183,2026-03-18,False,False,False,True,,45.0,Wednesday,False,['7C'],1,False,['Outdoor'],Outdoor,Direct
+68,1.0,,,4,0 days 11:39:00,0 days 13:30:00,Walk in,183,2026-03-18,False,False,False,True,,111.0,Wednesday,False,['4'],1,False,['Unknown'],Unknown,Direct
+69,1.0,,,8B,0 days 11:40:00,0 days 11:54:00,In house,183,2026-03-18,False,False,False,True,,14.0,Wednesday,False,['8B'],1,False,['Outdoor'],Outdoor,Direct
+70,1.0,,,5A,0 days 11:43:00,0 days 12:20:00,In house,183,2026-03-18,False,False,False,True,,37.0,Wednesday,False,['5A'],1,False,['Indoor'],Indoor,Direct
