@@ -178,7 +178,7 @@ def apply_font(fig, height=320):
 # ─── Load & prep data ──────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_pickle("../data/busy_buffet_clean.pkl")
+    df = pd.read_pickle(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)), "data", "busy_buffet_clean.pkl"))
 
     slots  = [timedelta(hours=h, minutes=m) for h in range(6, 14) for m in (0, 30)]
     seated = df[df["seating_status"] != "Walk-away"]
