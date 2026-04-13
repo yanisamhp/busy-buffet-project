@@ -686,9 +686,12 @@ elif page == "Task 3 — Recommendation":
         ih_seated = df[
             (df["Guest_type"] == "In house") & df["meal_start"].notna()
         ].copy()
-        ih_seated["meal_hour"] = ih_seated["meal_start"].apply(
-            lambda x: x.seconds // 3600 if pd.notna(x) else None
-        )
+        OPEN_HOUR = 6  # buffet เริ่ม 06:00
+
+        ih_seated["meal_hour"] = (
+            ih_seated["meal_start"].dt.total_seconds() // 3600
+        ).astype(int) + OPEN_HOUR
+        
         ih_hour = (
             ih_seated.groupby("meal_hour").size()
             .reset_index(name="count")
