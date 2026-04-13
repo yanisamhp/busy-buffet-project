@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -179,8 +178,9 @@ def apply_font(fig, height=320):
 # ─── Load & prep data ──────────────────────────────────────
 @st.cache_data
 def load_data():
+    import os
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    df = pd.read_pickle(os.path.join(BASE_DIR, "data", "busy_buffet_clean.pkl"))
+    df = pd.read_pickle(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "busy_buffet_clean.pkl"))
 
     slots  = [timedelta(hours=h, minutes=m) for h in range(6, 14) for m in (0, 30)]
     seated = df[df["seating_status"] != "Walk-away"]
@@ -703,7 +703,7 @@ elif page == "Task 3 — Recommendation":
             yaxis_range=[0, 50], template=TEMPLATE,
         )
         st.plotly_chart(apply_font(fig), use_container_width=True)
-        st.caption("ต้อง reserve เฉลี่ย ~33 โต๊ะต่อวัน ช่วง 07:00–09:00")
+        st.caption("ต้อง reserve เฉลี่ย ~28 โต๊ะต่อวัน ช่วง 07:00–09:00")
 
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown("#### Queue Skipping vs Reserved Seating")
