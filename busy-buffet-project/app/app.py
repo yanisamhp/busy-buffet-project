@@ -690,20 +690,16 @@ elif page == "Task 3 — Recommendation":
         ].copy()
 
         OPEN_HOUR = 6
-        CLOSE_HOUR = 11
 
         # Convert to real hour
         ih_seated["meal_hour"] = (
             ih_seated["meal_start"]
-            .dt.total_seconds()
-            .div(3600)
-            .astype(int)
-            + OPEN_HOUR
-        )
+            .dt.total_seconds() // 3600
+        ).astype(int) + OPEN_HOUR
 
-        # Keep only breakfast hours
+        # กำหนดช่วงเวลา breakfast
         ih_seated = ih_seated[
-            ih_seated["meal_hour"].between(OPEN_HOUR, CLOSE_HOUR)
+            ih_seated["meal_hour"].between(6, 12)
         ]
 
         # Count per hour
@@ -712,9 +708,10 @@ elif page == "Task 3 — Recommendation":
             .groupby("meal_hour")
             .size()
             .reset_index(name="count")
+            .sort_values("meal_hour")
         )
 
-        # Find peak hours automatically
+        # หา peak 2 ชั่วโมง
         peak_hours = (
             ih_hour
             .sort_values("count", ascending=False)
