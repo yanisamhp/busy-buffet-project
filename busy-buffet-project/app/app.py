@@ -174,9 +174,6 @@ def apply_font(fig, height=320):
 
         showlegend=False,
 
-        title=dict(
-            font=dict(family="Montserrat, sans-serif", size=13, color="#1B365D")
-        ),
     )
     fig.update_xaxes(tickfont=FONT, title_font=FONT, showgrid=False, linecolor="#E7E6E6")
     fig.update_yaxes(tickfont=FONT, title_font=FONT, gridcolor="#f0f0f0", linecolor="#E7E6E6")
