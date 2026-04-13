@@ -683,29 +683,60 @@ elif page == "Task 3 — Recommendation":
 
     with col_l:
         st.markdown("#### In-house: เวลาที่นิยมมากิน")
-        ih_seated = df[
-            (df["Guest_type"] == "In house") & df["meal_start"].notna()
-        ].copy()
-        OPEN_HOUR = 6  # buffet เริ่ม 06:00
+    
+    ih_seated = df[
+        (df["Guest_type"] == "In house") &
+        df["meal_start"].notna()
+    ].copy()
 
-        ih_seated["meal_hour"] = (
-            ih_seated["meal_start"].dt.total_seconds() // 3600
-        ).astype(int) + OPEN_HOUR
-        
-        ih_hour = (
-            ih_seated.groupby("meal_hour").size()
-            .reset_index(name="count")
-        )
-        ih_hour["hour_str"] = ih_hour["meal_hour"].apply(lambda h: f"{h:02d}:00")
-        fig = go.Figure(go.Bar(
-            x=ih_hour["hour_str"], y=ih_hour["count"],
-            marker_color=[
-                C_INHOUSE if h in [7, 8] else C_WALKIN
-                for h in ih_hour["meal_hour"]
-            ],
-            text=ih_hour["count"], textposition="outside",
-            textfont=dict(size=11, color=C_INHOUSE),
-        ))
+    OPEN_HOUR = 6
+    CLOSE_HOUR = 11
+
+    # Convert to real hour
+    ih_seated["meal_hour"] = (
+        ih_seated["meal_start"]
+        .dt.total_seconds()
+        .div(3600)
+        .astype(int)
+        + OPEN_HOUR
+    )
+
+    # Keep only breakfast hours
+    ih_seated = ih_seated[
+        ih_seated["meal_hour"].between(OPEN_HOUR, CLOSE_HOUR)
+    ]
+
+    # Count per hour
+    ih_hour = (
+        ih_seated
+        .groupby("meal_hour")
+        .size()
+        .reset_index(name="count")
+    )
+
+    # Find peak hours automatically
+    peak_hours = (
+        ih_hour
+        .sort_values("count", ascending=False)
+        .head(2)["meal_hour"]
+        .tolist()
+    )
+
+    ih_hour["hour_str"] = ih_hour["meal_hour"].apply(
+        lambda h: f"{h:02d}:00"
+    )
+
+    fig = go.Figure(go.Bar(
+        x=ih_hour["hour_str"],
+        y=ih_hour["count"],
+        marker_color=[
+            C_INHOUSE if h in peak_hours else C_WALKIN
+            for h in ih_hour["meal_hour"]
+        ],
+        text=ih_hour["count"],
+        textposition="outside",
+    ))
+
         fig.update_layout(
             xaxis_title="Time", yaxis_title="Groups (5-day total)",
             yaxis_range=[0, 80], template=TEMPLATE,
